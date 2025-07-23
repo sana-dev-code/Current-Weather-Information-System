@@ -19,4 +19,13 @@ A simple and interactive web application that allows users to get the **real-tim
 
 ![App Screenshot](https://github.com/sana-dev-code/Current-Weather-Information-System/blob/main/Screenshot%202025-07-23%20212941.png?raw=true)
 
+## 🔑 API Key
 
+This project uses the OpenWeatherMap API. To make it work:
+
+1. Create an account at [https://openweathermap.org/](https://openweathermap.org/)
+2. Generate your API key
+3. Replace `"YOUR_API_KEY"` in the script with your actual key.
+
+```javascript
+const apiKey = "YOUR_API_KEY";
